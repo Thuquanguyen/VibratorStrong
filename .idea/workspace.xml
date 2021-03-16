@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="72c37071-fe5f-4a5c-a36e-67cead814e5f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/images/ic_splat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/More/View/more_view.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Setting/View/setting_view.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Splat/splat_view.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Vibration/View/vibration_view.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/View/AlertMore/alert_more.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/View/AlertView/alert_setup_time.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/navigation_bottom.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/router.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Flutter/Debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/Debug.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Flutter/Release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/Release.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1pqMBDcILd1BbnrKm9VNmBuasRh" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="emulator" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images" />
+      <recent name="$PROJECT_DIR$/lib/Vibration/View" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="72c37071-fe5f-4a5c-a36e-67cead814e5f" name="Default Changelist" comment="" />
+      <created>1615906029526</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615906029526</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="100" y="123" width="1240" height="590" key="AVDManager" timestamp="1615906705453">
+      <screen x="0" y="23" width="1440" height="790" />
+    </state>
+    <state x="100" y="123" width="1240" height="590" key="AVDManager/0.23.1440.790@0.23.1440.790" timestamp="1615906705453" />
+    <state x="515" y="171" key="AndroidProcessChooserDialog" timestamp="1615914671038">
+      <screen x="0" y="23" width="1440" height="790" />
+    </state>
+    <state x="515" y="171" key="AndroidProcessChooserDialog/0.23.1440.790@0.23.1440.790" timestamp="1615914671038" />
+    <state width="1398" height="202" key="GridCell.Tab.0.bottom" timestamp="1615914672501">
+      <screen x="0" y="23" width="1440" height="790" />
+    </state>
+    <state width="1398" height="202" key="GridCell.Tab.0.bottom/0.23.1440.790@0.23.1440.790" timestamp="1615914672501" />
+    <state width="1398" height="202" key="GridCell.Tab.0.center" timestamp="1615914672501">
+      <screen x="0" y="23" width="1440" height="790" />
+    </state>
+    <state width="1398" height="202" key="GridCell.Tab.0.center/0.23.1440.790@0.23.1440.790" timestamp="1615914672501" />
+    <state width="1398" height="202" key="GridCell.Tab.0.left" timestamp="1615914672500">
+      <screen x="0" y="23" width="1440" height="790" />
+    </state>
+    <state width="1398" height="202" key="GridCell.Tab.0.left/0.23.1440.790@0.23.1440.790" timestamp="1615914672500" />
+    <state width="1398" height="202" key="GridCell.Tab.0.right" timestamp="1615914672501">
+      <screen x="0" y="23" width="1440" height="790" />
+    </state>
+    <state width="1398" height="202" key="GridCell.Tab.0.right/0.23.1440.790@0.23.1440.790" timestamp="1615914672501" />
+    <state x="221" y="57" key="SettingsEditor" timestamp="1615906264888">
+      <screen x="0" y="23" width="1440" height="790" />
+    </state>
+    <state x="221" y="57" key="SettingsEditor/0.23.1440.790@0.23.1440.790" timestamp="1615906264888" />
+    <state x="412" y="144" width="615" height="548" key="find.popup" timestamp="1615906856333">
+      <screen x="0" y="23" width="1440" height="790" />
+    </state>
+    <state x="412" y="144" width="615" height="548" key="find.popup/0.23.1440.790@0.23.1440.790" timestamp="1615906856333" />
+    <state x="385" y="137" width="670" height="676" key="search.everywhere.popup" timestamp="1615913610065">
+      <screen x="0" y="23" width="1440" height="790" />
+    </state>
+    <state x="385" y="137" width="670" height="676" key="search.everywhere.popup/0.23.1440.790@0.23.1440.790" timestamp="1615913610065" />
+  </component>
+</project>
