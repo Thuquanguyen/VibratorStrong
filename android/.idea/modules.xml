@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android.iml" filepath="$PROJECT_DIR$/.idea/modules/android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/android.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/android.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1563372056/android.flutter_social_content_share.iml" filepath="$PROJECT_DIR$/.idea/modules/-1563372056/android.flutter_social_content_share.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-679947569/android.path_provider.iml" filepath="$PROJECT_DIR$/.idea/modules/-679947569/android.path_provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/756226455/android.store_redirect.iml" filepath="$PROJECT_DIR$/.idea/modules/756226455/android.store_redirect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-262077744/android.url_launcher.iml" filepath="$PROJECT_DIR$/.idea/modules/-262077744/android.url_launcher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1297749127/android.vibrate.iml" filepath="$PROJECT_DIR$/.idea/modules/1297749127/android.vibrate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1574051476/android.vibration.iml" filepath="$PROJECT_DIR$/.idea/modules/-1574051476/android.vibration.iml" />
+    </modules>
+  </component>
+</project>

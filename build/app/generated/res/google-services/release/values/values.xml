@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1012977118670-nf7p3d9lrj0ldssh47r968av85r6ir4o.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1012977118670</string>
+    <string name="google_api_key" translatable="false">AIzaSyDo3gunIbOVNeXBTF_nXImJfn9tJqyqM2k</string>
+    <string name="google_app_id" translatable="false">1:1012977118670:android:e07e19ffa497e37d5d8f9f</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDo3gunIbOVNeXBTF_nXImJfn9tJqyqM2k</string>
+    <string name="google_storage_bucket" translatable="false">vibration-strong.appspot.com</string>
+    <string name="project_id" translatable="false">vibration-strong</string>
+</resources>

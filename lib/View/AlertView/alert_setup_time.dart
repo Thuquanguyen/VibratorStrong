@@ -32,6 +32,7 @@ class _AlertSetuptimeState extends State<AlertSetuptime> {
       SizedBox(height: 15,),
       RaisedButton(onPressed: (){
         widget.changeTime(double.parse(secondController.text),double.parse(minusController.text));
+        Navigator.of(context).pop();
       }, child: Text("Done",style: TextStyle(color: Colors.white),),color: Colors.purple)
     ],));
   }

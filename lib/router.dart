@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:flutter_app_vibrator_strong/Background/View/background_view.dart';
+import 'package:flutter_app_vibrator_strong/ColorText/View/color_text_view.dart';
+import 'package:flutter_app_vibrator_strong/FontText/View/font_text_view.dart';
+import 'package:flutter_app_vibrator_strong/Infomation/View/infomation_app.dart';
 
 import 'Splat/splat_view.dart';
 import 'navigation_bottom.dart';
@@ -15,6 +19,14 @@ class Routerr {
         return SlideRightRoute(widget: SplatView());
       case NavigationBottomBar.routeName:
         return SlideRightRoute(widget: NavigationBottomBar());
+      case InfomationApp.routerName:
+        return SlideRightRoute(widget: InfomationApp());
+      case BackgroundView.routerName:
+        return SlideRightRoute(widget: BackgroundView());
+      case ColorTextView.routerName:
+        return SlideRightRoute(widget: ColorTextView());
+      case FontTextView.routerName:
+        return SlideRightRoute(widget: FontTextView());
       default:
         return MaterialPageRoute(
             builder: (_) => Scaffold(

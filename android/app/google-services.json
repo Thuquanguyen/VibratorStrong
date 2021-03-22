@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1012977118670",
+    "project_id": "vibration-strong",
+    "storage_bucket": "vibration-strong.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1012977118670:android:e07e19ffa497e37d5d8f9f",
+        "android_client_info": {
+          "package_name": "com.flutter.flutter_app_vibrator_strong"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1012977118670-nf7p3d9lrj0ldssh47r968av85r6ir4o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo3gunIbOVNeXBTF_nXImJfn9tJqyqM2k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1012977118670-nf7p3d9lrj0ldssh47r968av85r6ir4o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

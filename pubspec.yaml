@@ -31,6 +31,13 @@ dependencies:
   provider:
   path_provider:
   store_redirect:
+  vibration:
+  vibrate: ^0.0.4
+  toast:
+  url_launcher: ^3.0.1
+  flutter_social_content_share:
+  google_fonts:
+  shared_preferences:
 
 dev_dependencies:
   flutter_test:
@@ -50,6 +57,9 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/images/ic_splat.jpg
+    - assets/images/ic_crow.png
+    - assets/images/ic_app.png
+    - assets/images/image_1.jpeg
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
