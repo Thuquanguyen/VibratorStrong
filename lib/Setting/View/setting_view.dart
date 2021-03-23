@@ -177,15 +177,19 @@ showAlertDialog(BuildContext context,int index) {
     onPressed:  () {
       switch(index){
         case 0:
+          Navigator.of(context).pop();
           Navigator.of(context).pushNamed(BackgroundView.routerName);
           break;
         case 1:
+          Navigator.of(context).pop();
           Navigator.of(context).pushNamed(FontTextView.routerName);
           break;
         default:
+          Navigator.of(context).pop();
           Navigator.of(context).pushNamed(ColorTextView.routerName);
           break;
       }
+
     },
   );
 

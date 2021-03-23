@@ -41,7 +41,7 @@ class _FontTextViewState extends State<FontTextView> {
         SizedBox(height: 15,),
         Divider(height: 1,)
       ],),onTap: (){
-          MyApp.restartApp(context,"fonts",fonts[index].fontStyle);
+          MyApp.restartApp(context,"fonts",fontStyle: fonts[index].fontStyle);
       },),);
     },itemCount: fonts.length)),);
   }

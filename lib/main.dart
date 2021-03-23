@@ -11,9 +11,9 @@ void main() {
 }
 
 class MyApp extends StatefulWidget {
-  static void restartApp(BuildContext context,String key, String fontStyle,
-      {Color color}) {
-    context.findAncestorStateOfType<_MyAppState>().resetFont(key,fontStyle,color: color);
+  static void restartApp(BuildContext context,String key, {String fontStyle,
+      Color color}) {
+    context.findAncestorStateOfType<_MyAppState>().resetFont(key,fontStyle: fontStyle,color: color);
   }
 
   @override
@@ -22,7 +22,7 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   var font = GoogleFonts.roboto().fontFamily;
-  var background = Colors.white;
+  var backgroundMode = Colors.white;
   var textColor = Colors.black;
 
   @override
@@ -34,15 +34,15 @@ class _MyAppState extends State<MyApp> {
     getNamePreference("textcolor");
   }
 
-  void resetFont(String key, String fontStyle, {Color color}) {
-    saveNamePreference(key, fontStyle,color: color);
+  void resetFont(String key, {String fontStyle, Color color}) {
+    saveNamePreference(key,font: fontStyle,color: color);
     getNamePreference(key);
   }
 
-  saveNamePreference(String key, String font, {Color color}) async {
+  saveNamePreference(String key, {String font ,Color color}) async {
     try {
       SharedPreferences prefs = await SharedPreferences.getInstance();
-      if (font.isEmpty) {
+      if (font == null) {
         prefs.setInt(key, color.value);
       } else {
         prefs.setString(key, font);
@@ -65,7 +65,7 @@ class _MyAppState extends State<MyApp> {
             break;
           case "background":
             Color myColor = Color(prefs.getInt(key) ?? Colors.blue.value);
-            background = myColor;
+            backgroundMode = myColor;
             break;
           case "textcolor":
             Color myColor = Color(prefs.getInt(key) ?? Colors.blue.value);
@@ -90,7 +90,11 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
         theme: new ThemeData(
-            fontFamily: font, scaffoldBackgroundColor: Colors.red),
+            fontFamily: font, scaffoldBackgroundColor: backgroundMode,textTheme: Theme.of(context).textTheme.apply(
+          bodyColor: textColor,
+          displayColor: textColor,
+            decorationColor: textColor
+        )),
         initialRoute: SplatView.routeName,
         onGenerateRoute: Routerr.generateRoute,
         routes: {});
