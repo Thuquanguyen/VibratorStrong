@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="tw__time_hours">
+        <item quantity="one">1s</item>
+        <item quantity="other">%ds</item>
+    </plurals>
+    <plurals name="tw__time_mins">
+        <item quantity="one">1d</item>
+        <item quantity="other">%dd</item>
+    </plurals>
+    <plurals name="tw__time_secs">
+        <item quantity="one">1s</item>
+        <item quantity="other">%d</item>
+    </plurals>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Ana ekrana git"</string>
     <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Yukarı git"</string>
     <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Diğer seçenekler"</string>
@@ -33,7 +45,7 @@
     <string gender="unknown" name="com_facebook_internet_permission_error_title">AndroidManifest Hatası</string>
     <string gender="unknown" name="com_facebook_like_button_liked">Beğendin</string>
     <string gender="unknown" name="com_facebook_like_button_not_liked">Beğen</string>
-    <string gender="unknown" name="com_facebook_loading">Yükleniyor...</string>
+    <string gender="unknown" name="com_facebook_loading">Yükleniyor…</string>
     <string gender="unknown" name="com_facebook_loginview_cancel_action">İptal</string>
     <string gender="unknown" name="com_facebook_loginview_log_in_button">Giriş yap</string>
     <string gender="unknown" name="com_facebook_loginview_log_in_button_continue">Facebook ile Devam Et</string>
@@ -51,6 +63,38 @@
     <string gender="unknown" name="com_facebook_smart_login_confirmation_title">Girişi Onayla</string>
     <string gender="unknown" name="com_facebook_tooltip_default">Kontrol sende - uygulamalarla paylaşmak istediğin bilgileri seç.</string>
     <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g>, Google Play hizmetleriyle ilgili sorun yaşıyor. Lütfen tekrar deneyin."</string>
+    <string msgid="4014704848104544569" name="offline_notification_text">"Reklamı açmak için dokunun"</string>
+    <string msgid="6989673690118446590" name="offline_notification_title">"Kaydettiğiniz reklamı internet bağlantınız yokken görüntüleyin"</string>
+    <string msgid="6452552490969291315" name="offline_opt_in_confirm">"Tamam"</string>
+    <string msgid="2485091187023273083" name="offline_opt_in_confirmation">"İnternete tekrar bağlandığınızda bağlantı içeren bir bildirim alacaksınız"</string>
+    <string msgid="1070677888032715836" name="offline_opt_in_decline">"Hayır"</string>
+    <string msgid="5998527443747404848" name="offline_opt_in_message">"Size reklamverenin sitesine bir bağlantının olduğu bildirim göndereceğiz."</string>
+    <string msgid="4928666061183236333" name="offline_opt_in_title">"İnternete tekrar bağlandığınızda reklamı açın."</string>
+    <string msgid="368094699078615544" name="s1">"Resmi kaydet"</string>
+    <string msgid="4550830452390689489" name="s2">"Reklamın, Resim galerisine resim kaydetmesine izin verilsin mi?"</string>
+    <string msgid="2435407834265420668" name="s3">"Kabul et"</string>
+    <string msgid="9167523597401839819" name="s4">"Reddet"</string>
+    <string msgid="1566682516266724847" name="s5">"Takvim etkinliği oluştur"</string>
+    <string msgid="5996672174517137271" name="s6">"Reklamın, takvim etkinliği oluşturmasına izin verilsin mi?"</string>
+    <string msgid="7163549807207034258" name="s7">"Test Reklamı"</string>
     <string msgid="146198913615257606" name="search_menu_title">"Ara"</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="tw__composer_hint">Neler oluyor?</string>
+    <string name="tw__like_tweet">Tweet Beğen</string>
+    <string name="tw__liked_tweet">Beğenmekten Vazgeç</string>
+    <string name="tw__loading_tweet">Tweet Yükleniyor</string>
+    <string name="tw__login_btn_txt">Twitter ile giriş yap</string>
+    <string name="tw__max_tweet_chars">140</string>
+    <string name="tw__pause">duraklat</string>
+    <string name="tw__play">oynat</string>
+    <string name="tw__post_tweet">Tweet</string>
+    <string name="tw__relative_date_format_long">dd.MM.y</string>
+    <string name="tw__relative_date_format_short">d MMM</string>
+    <string name="tw__replay">tekrar oynat</string>
+    <string name="tw__retweeted_by_format">%1$s tarafından Retweetlendi</string>
+    <string name="tw__share_content_format">\@%1$s adlı kişinin Tweetini incele: https://twitter.com/%1$s/status/%2$s</string>
+    <string name="tw__share_subject_format">Tweet gönderen: %1$s (\@%2$s)</string>
+    <string name="tw__share_tweet">Tweet Paylaş</string>
+    <string name="tw__tweet_content_description">%1$s. %2$s. %3$s.</string>
+    <string name="tw__tweet_media">Tweet Medyası</string>
 </resources>

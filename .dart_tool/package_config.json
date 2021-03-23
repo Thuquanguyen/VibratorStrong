@@ -68,10 +68,40 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "firebase_admob",
+      "rootUri": "file:///Users/apple/.pub-cache/hosted/pub.dartlang.org/firebase_admob-0.11.0+2",
+      "packageUri": "lib/",
+      "languageVersion": "2.7"
+    },
+    {
+      "name": "firebase_core",
+      "rootUri": "file:///Users/apple/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.7.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "firebase_core_platform_interface",
+      "rootUri": "file:///Users/apple/.pub-cache/hosted/pub.dartlang.org/firebase_core_platform_interface-3.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "firebase_core_web",
+      "rootUri": "file:///Users/apple/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-0.2.1+3",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
       "name": "flutter",
       "rootUri": "file:///Users/apple/flutter/packages/flutter",
       "packageUri": "lib/",
       "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_share_me",
+      "rootUri": "file:///Users/apple/.pub-cache/hosted/pub.dartlang.org/flutter_share_me-0.9.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
     },
     {
       "name": "flutter_social_content_share",
@@ -159,7 +189,7 @@
     },
     {
       "name": "path_provider_platform_interface",
-      "rootUri": "file:///Users/apple/.pub-cache/hosted/pub.dartlang.org/path_provider_platform_interface-2.0.1",
+      "rootUri": "file:///Users/apple/.pub-cache/hosted/pub.dartlang.org/path_provider_platform_interface-2.0.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -183,9 +213,9 @@
     },
     {
       "name": "plugin_platform_interface",
-      "rootUri": "file:///Users/apple/.pub-cache/hosted/pub.dartlang.org/plugin_platform_interface-2.0.0",
+      "rootUri": "file:///Users/apple/.pub-cache/hosted/pub.dartlang.org/plugin_platform_interface-1.0.3",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.1"
     },
     {
       "name": "process",
@@ -198,6 +228,12 @@
       "rootUri": "file:///Users/apple/.pub-cache/hosted/pub.dartlang.org/provider-5.0.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
+    },
+    {
+      "name": "quiver",
+      "rootUri": "file:///Users/apple/.pub-cache/hosted/pub.dartlang.org/quiver-2.1.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
     },
     {
       "name": "shared_preferences",
@@ -344,7 +380,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2021-03-22T16:10:53.949304Z",
+  "generated": "2021-03-23T16:11:00.193903Z",
   "generator": "pub",
   "generatorVersion": "2.13.0-116.0.dev"
 }

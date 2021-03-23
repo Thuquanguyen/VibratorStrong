@@ -4,12 +4,16 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/android.iml" filepath="$PROJECT_DIR$/.idea/modules/android.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/android.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/android.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/310988604/android.firebase_admob.iml" filepath="$PROJECT_DIR$/.idea/modules/310988604/android.firebase_admob.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-238844558/android.firebase_core.iml" filepath="$PROJECT_DIR$/.idea/modules/-238844558/android.firebase_core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1290773856/android.flutter_share_me.iml" filepath="$PROJECT_DIR$/.idea/modules/-1290773856/android.flutter_share_me.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1563372056/android.flutter_social_content_share.iml" filepath="$PROJECT_DIR$/.idea/modules/-1563372056/android.flutter_social_content_share.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-679947569/android.path_provider.iml" filepath="$PROJECT_DIR$/.idea/modules/-679947569/android.path_provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/951495970/android.path_provider.iml" filepath="$PROJECT_DIR$/.idea/modules/951495970/android.path_provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/886462783/android.shared_preferences.iml" filepath="$PROJECT_DIR$/.idea/modules/886462783/android.shared_preferences.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/756226455/android.store_redirect.iml" filepath="$PROJECT_DIR$/.idea/modules/756226455/android.store_redirect.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/-262077744/android.url_launcher.iml" filepath="$PROJECT_DIR$/.idea/modules/-262077744/android.url_launcher.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/1297749127/android.vibrate.iml" filepath="$PROJECT_DIR$/.idea/modules/1297749127/android.vibrate.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1574051476/android.vibration.iml" filepath="$PROJECT_DIR$/.idea/modules/-1574051476/android.vibration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2000382991/android.vibration.iml" filepath="$PROJECT_DIR$/.idea/modules/-2000382991/android.vibration.iml" />
     </modules>
   </component>
 </project>

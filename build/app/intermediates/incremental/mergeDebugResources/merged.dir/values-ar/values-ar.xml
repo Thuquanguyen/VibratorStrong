@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="tw__time_hours">
+        <item quantity="one">1 س</item>
+        <item quantity="other">%d س</item>
+    </plurals>
+    <plurals name="tw__time_mins">
+        <item quantity="one">1 د</item>
+        <item quantity="other">%d د</item>
+    </plurals>
+    <plurals name="tw__time_secs">
+        <item quantity="one">1 ث</item>
+        <item quantity="other">%d ث</item>
+    </plurals>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"التنقل إلى الشاشة الرئيسية"</string>
     <string msgid="1594238315039666878" name="abc_action_bar_up_description">"التنقل إلى أعلى"</string>
     <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"خيارات إضافية"</string>
@@ -51,6 +63,38 @@
     <string gender="unknown" name="com_facebook_smart_login_confirmation_title">تأكيد تسجيل الدخول</string>
     <string gender="unknown" name="com_facebook_tooltip_default">أنت المتحكم في الأمر - يمكنك اختيار المعلومات التي تود مشاركتها مع التطبيقات.</string>
     <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"‏لدى <ns1:g id="APP_NAME">%1$s</ns1:g> مشكلة في خدمات Google Play. يُرجى إعادة المحاولة."</string>
+    <string msgid="4014704848104544569" name="offline_notification_text">"انقر لفتح الإعلان"</string>
+    <string msgid="6989673690118446590" name="offline_notification_title">"عرض الإعلان الذي حفظته عند عدم الاتصال بالإنترنت"</string>
+    <string msgid="6452552490969291315" name="offline_opt_in_confirm">"حسنًا"</string>
+    <string msgid="2485091187023273083" name="offline_opt_in_confirmation">"ستتلقّى إشعارًا يحتوي على الرابط عند إعادة الاتصال بالإنترنت."</string>
+    <string msgid="1070677888032715836" name="offline_opt_in_decline">"لا، شكرًا"</string>
+    <string msgid="5998527443747404848" name="offline_opt_in_message">"سنرسل إليك إشعارًا يحتوي على رابط إلى الموقع الإلكتروني للمعلِن."</string>
+    <string msgid="4928666061183236333" name="offline_opt_in_title">"فتح العنوان عند إعادة الاتصال بالإنترنت"</string>
+    <string msgid="368094699078615544" name="s1">"حفظ الصورة"</string>
+    <string msgid="4550830452390689489" name="s2">"هل تريد السماح للإعلان بتخزين الصورة في معرض الصور؟"</string>
+    <string msgid="2435407834265420668" name="s3">"قبول"</string>
+    <string msgid="9167523597401839819" name="s4">"رفض"</string>
+    <string msgid="1566682516266724847" name="s5">"إنشاء حدث في التقويم"</string>
+    <string msgid="5996672174517137271" name="s6">"هل تريد السماح للإعلان بإنشاء حدث في التقويم؟"</string>
+    <string msgid="7163549807207034258" name="s7">"إعلان تجريبي"</string>
     <string msgid="146198913615257606" name="search_menu_title">"البحث"</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="tw__composer_hint">ماذا يحدث؟</string>
+    <string name="tw__like_tweet">إعجاب بالتغريدة</string>
+    <string name="tw__liked_tweet">إلغاء الإعجاب</string>
+    <string name="tw__loading_tweet">يتم تحميل التغريدة</string>
+    <string name="tw__login_btn_txt">سجّل الدخول بواسطة تويتر</string>
+    <string name="tw__max_tweet_chars">140</string>
+    <string name="tw__pause">توقف</string>
+    <string name="tw__play">تشغيل</string>
+    <string name="tw__post_tweet">تغريد</string>
+    <string name="tw__relative_date_format_long">d/M/y</string>
+    <string name="tw__relative_date_format_short">d MMM</string>
+    <string name="tw__replay">إعادة التشغيل</string>
+    <string name="tw__retweeted_by_format">مُعاد تغريدها بواسطة %1$s</string>
+    <string name="tw__share_content_format">اطلع على تغريدة ‎\@%1$s\: https://twitter.com/%1$s/status/%2$s</string>
+    <string name="tw__share_subject_format">تغريدة من %1$s (‎\@%2$s)</string>
+    <string name="tw__share_tweet">مشاركة التغريدة</string>
+    <string name="tw__tweet_content_description">%1$s. %2$s. %3$s.</string>
+    <string name="tw__tweet_media">تغريدة وسائط</string>
 </resources>

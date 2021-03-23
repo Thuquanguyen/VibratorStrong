@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="tw__time_hours">
+        <item quantity="one">1h</item>
+        <item quantity="other">%dh</item>
+    </plurals>
+    <plurals name="tw__time_mins">
+        <item quantity="one">1m</item>
+        <item quantity="other">%dm</item>
+    </plurals>
+    <plurals name="tw__time_secs">
+        <item quantity="one">1s</item>
+        <item quantity="other">%ds</item>
+    </plurals>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"હોમ પર નેવિગેટ કરો"</string>
     <string msgid="1594238315039666878" name="abc_action_bar_up_description">"ઉપર નૅવિગેટ કરો"</string>
     <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"વધુ વિકલ્પો"</string>
@@ -33,7 +45,7 @@
     <string gender="unknown" name="com_facebook_internet_permission_error_title">AndroidManifest ભૂલ</string>
     <string gender="unknown" name="com_facebook_like_button_liked">ગમ્યું</string>
     <string gender="unknown" name="com_facebook_like_button_not_liked">પસંદ કરો</string>
-    <string gender="unknown" name="com_facebook_loading">લોડ થઈ રહ્યું છે…</string>
+    <string gender="unknown" name="com_facebook_loading">લોડ થાય છે…</string>
     <string gender="unknown" name="com_facebook_loginview_cancel_action">રદ કરો</string>
     <string gender="unknown" name="com_facebook_loginview_log_in_button">લૉગ ઇન કરો</string>
     <string gender="unknown" name="com_facebook_loginview_log_in_button_continue">Facebook સાથે ચાલુ રાખો</string>
@@ -51,6 +63,36 @@
     <string gender="unknown" name="com_facebook_smart_login_confirmation_title">લૉગિનની પુષ્ટિ કરો</string>
     <string gender="unknown" name="com_facebook_tooltip_default">તમે નિયંત્રણમાં છો - તમે એપ્લિકેશન્સ સાથે શું માહિતી શેર કરવા માંગો પસંદ કરો.</string>
     <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> ને Google Play સેવાઓમાં મુશ્કેલી આવી રહી છે. કૃપા કરીને ફરી પ્રયાસ કરો."</string>
+    <string msgid="4014704848104544569" name="offline_notification_text">"જાહેરાત ખોલવા માટે ટૅપ કરો"</string>
+    <string msgid="6989673690118446590" name="offline_notification_title">"તમે ઑફલાઇન હતા, ત્યારે તમે સાચવેલી જાહેરાત જુઓ"</string>
+    <string msgid="6452552490969291315" name="offline_opt_in_confirm">"ઓકે"</string>
+    <string msgid="2485091187023273083" name="offline_opt_in_confirmation">"તમે ફરી પાછા ઑનલાઇન થાઓ, ત્યારે તમને લિંક ધરાવતું નોટિફિકેશન મળશે"</string>
+    <string msgid="1070677888032715836" name="offline_opt_in_decline">"ના, આભાર"</string>
+    <string msgid="5998527443747404848" name="offline_opt_in_message">"અમે તમને જાહેરાતકર્તાની સાઇટની લિંક ધરાવતું નોટિફિકેશન મોકલીશું."</string>
+    <string msgid="4928666061183236333" name="offline_opt_in_title">"તમે ફરી પાછા ઑનલાઇન થાઓ, ત્યારે જાહેરાત ખોલો."</string>
+    <string msgid="368094699078615544" name="s1">"છબી સાચવો"</string>
+    <string msgid="4550830452390689489" name="s2">"જાહેરાતને ચિત્ર ગૅલેરીમાં છબી સંગ્રહિત કરવાની મંજૂરી આપીએ?"</string>
+    <string msgid="2435407834265420668" name="s3">"સ્વીકારો"</string>
+    <string msgid="9167523597401839819" name="s4">"નકારો"</string>
+    <string msgid="1566682516266724847" name="s5">"કૅલેન્ડર ઇવેન્ટ બનાવો"</string>
+    <string msgid="5996672174517137271" name="s6">"જાહેરાતને કૅલેન્ડર ઇવેન્ટ બનાવવાની મંજૂરી આપીએ?"</string>
+    <string msgid="7163549807207034258" name="s7">"પરીક્ષણની જાહેરાત"</string>
     <string msgid="146198913615257606" name="search_menu_title">"શોધો"</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="tw__composer_hint">શું ચાલી રહ્યું છ?</string>
+    <string name="tw__like_tweet">ટ્વીટ લાઈક કરો</string>
+    <string name="tw__liked_tweet">લાઈક પૂર્વવત કરો</string>
+    <string name="tw__loading_tweet">ટ્વીટ લોડ થઈ રહી છે</string>
+    <string name="tw__login_btn_txt">Twitter સાથે લોગીન કરો</string>
+    <string name="tw__max_tweet_chars">140</string>
+    <string name="tw__pause">અટકાવો</string>
+    <string name="tw__play">પ્લે કરો</string>
+    <string name="tw__post_tweet">ટ્વીટ કરો</string>
+    <string name="tw__replay">પુન પ્લે કરો</string>
+    <string name="tw__retweeted_by_format">%1$s દ્વારા પુનટ્વીટ કરાઈ</string>
+    <string name="tw__share_content_format">\@%1$s\ની ટ્વીટ તપાસો: https://twitter.com/%1$s/status/%2$s</string>
+    <string name="tw__share_subject_format">%1$s (\@%2$s) તરફથી ટ્વીટ</string>
+    <string name="tw__share_tweet">ટ્વીટ શેર કરો</string>
+    <string name="tw__tweet_content_description">%1$s. %2$s. %3$s.</string>
+    <string name="tw__tweet_media">ટ્વીટ મીડિયા</string>
 </resources>

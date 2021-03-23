@@ -3,6 +3,8 @@ import 'package:flutter_app_vibrator_strong/Infomation/View/infomation_app.dart'
 import 'package:flutter_social_content_share/flutter_social_content_share.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:vibration/vibration.dart';
+import 'package:flutter_share_me/flutter_share_me.dart';
+
 
 class MoreView extends StatefulWidget {
   @override
@@ -68,7 +70,7 @@ class _MoreViewState extends State<MoreView> {
                                   Divider(height: 1),
                                   SizedBox(height: 10),
                                   GestureDetector(child: Text("Facebook",style: TextStyle(color: Colors.blue)),onTap: (){
-                                    // shareOnFacebook();
+                                    shareOnFacebook();
                                     Navigator.of(context).pop();
                                   },),
                                   SizedBox(height: 10),
@@ -98,7 +100,9 @@ class _MoreViewState extends State<MoreView> {
                       Icon(Icons.stars,size: 60,color: Colors.redAccent),
                       SizedBox(height: 10),
                       Text("Rate Application")
-                    ],),onTap: (){},),
+                    ],),onTap: (){
+                      _launchURL("https://play.google.com/store/apps/details?id=com.flutter.flutter_app_vibrator_strong");
+                    },),
                     SizedBox(height: 20),
                     GestureDetector(child: Column(mainAxisAlignment: MainAxisAlignment.center,children: [
                       Icon(Icons.feedback,size: 40,color: Colors.redAccent),
@@ -117,12 +121,20 @@ class _MoreViewState extends State<MoreView> {
 
 }
 
-/// SHARE ON FACEBOOK CALL
-shareOnFacebook() async { await FlutterSocialContentShare.share(
-      type: ShareType.facebookWithoutImage,
-      url: "https://www.google.com",
-      quote: "Extreme Vibration App");
+_launchURL(String url) async {
+  if (await canLaunch(url)) {
+    await launch(url);
+  }
+  else {
+    throw 'Could not launch $url';
+  }
 }
+
+/// SHARE ON FACEBOOK CALL
+  shareOnFacebook()  {
+    FlutterShareMe().shareToFacebook(
+        url: 'https://play.google.com/store/apps/details?id=com.flutter.flutter_app_vibrator_strong', msg: "Extreme Vibration App");
+  }
 
 /// SHARE ON INSTAGRAM CALL
 shareOnInstagram() async {
@@ -134,7 +146,7 @@ shareOnInstagram() async {
 
 /// SHARE ON EMAIL CALL
 shareEmail() async {
-  var body = "Your suggestions on the application:\n=============Device\ninfomation (use for support only)";
+  var body = "Your suggestions on the application:\n=============Device\ninfomation (use for support only):\nlink: https://play.google.com/store/apps/details?id=com.flutter.flutter_app_vibrator_strong";
   var url = 'mailto:quangthu1162@gmail.com?subject=Extreme Vibration App&body=$body';
   if (await canLaunch(url)) {
     await launch(url);

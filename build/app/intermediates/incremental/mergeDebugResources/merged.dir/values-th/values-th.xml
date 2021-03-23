@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="tw__time_hours">
+        <item quantity="one">1ชม.</item>
+        <item quantity="other">%d ชม.</item>
+    </plurals>
+    <plurals name="tw__time_mins">
+        <item quantity="one">1 นาที</item>
+        <item quantity="other">%d นาที</item>
+    </plurals>
+    <plurals name="tw__time_secs">
+        <item quantity="one">1วิ</item>
+        <item quantity="other">%d วิ</item>
+    </plurals>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"นำทางไปหน้าแรก"</string>
     <string msgid="1594238315039666878" name="abc_action_bar_up_description">"นำทางขึ้น"</string>
     <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"ตัวเลือกอื่น"</string>
@@ -33,7 +45,7 @@
     <string gender="unknown" name="com_facebook_internet_permission_error_title">ข้อผิดพลาด AndroidManifest</string>
     <string gender="unknown" name="com_facebook_like_button_liked">ถูกใจแล้ว</string>
     <string gender="unknown" name="com_facebook_like_button_not_liked">ถูกใจ</string>
-    <string gender="unknown" name="com_facebook_loading">กำลังโหลด...</string>
+    <string gender="unknown" name="com_facebook_loading">กำลังโหลด…</string>
     <string gender="unknown" name="com_facebook_loginview_cancel_action">ยกเลิก</string>
     <string gender="unknown" name="com_facebook_loginview_log_in_button">เข้าสู่ระบบ</string>
     <string gender="unknown" name="com_facebook_loginview_log_in_button_continue">ดำเนินการต่อด้วย Facebook</string>
@@ -51,6 +63,38 @@
     <string gender="unknown" name="com_facebook_smart_login_confirmation_title">ยืนยันการเข้าสู่ระบบ</string>
     <string gender="unknown" name="com_facebook_tooltip_default">คุณควบคุมได้ เลือกว่าคุณต้องการแชร์ข้อมูลใดกับแอพ</string>
     <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> มีปัญหาเกี่ยวกับบริการของ Google Play โปรดลองอีกครั้ง"</string>
+    <string msgid="4014704848104544569" name="offline_notification_text">"แตะเพื่อเปิดโฆษณา"</string>
+    <string msgid="6989673690118446590" name="offline_notification_title">"ดูโฆษณาที่คุณบันทึกไว้ขณะออฟไลน์"</string>
+    <string msgid="6452552490969291315" name="offline_opt_in_confirm">"ตกลง"</string>
+    <string msgid="2485091187023273083" name="offline_opt_in_confirmation">"คุณจะได้รับการแจ้งเตือนพร้อมลิงก์เมื่อกลับมาออนไลน์"</string>
+    <string msgid="1070677888032715836" name="offline_opt_in_decline">"ไม่เป็นไร"</string>
+    <string msgid="5998527443747404848" name="offline_opt_in_message">"เราจะส่งการแจ้งเตือนให้คุณพร้อมลิงก์ไปยังเว็บไซต์ของผู้ลงโฆษณา"</string>
+    <string msgid="4928666061183236333" name="offline_opt_in_title">"เปิดโฆษณาเมื่อคุณกลับมาออนไลน์"</string>
+    <string msgid="368094699078615544" name="s1">"บันทึกรูปภาพ"</string>
+    <string msgid="4550830452390689489" name="s2">"อนุญาตให้โฆษณาจัดเก็บรูปภาพในแกลเลอรีภาพไหม"</string>
+    <string msgid="2435407834265420668" name="s3">"ยอมรับ"</string>
+    <string msgid="9167523597401839819" name="s4">"ปฏิเสธ"</string>
+    <string msgid="1566682516266724847" name="s5">"สร้างกิจกรรมในปฏิทิน"</string>
+    <string msgid="5996672174517137271" name="s6">"อนุญาตให้โฆษณาสร้างกิจกรรมในปฏิทินไหม"</string>
+    <string msgid="7163549807207034258" name="s7">"โฆษณาทดสอบ"</string>
     <string msgid="146198913615257606" name="search_menu_title">"ค้นหา"</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="tw__composer_hint">มีอะไรเกิดขึ้น?</string>
+    <string name="tw__like_tweet">ชื่นชอบทวีต</string>
+    <string name="tw__liked_tweet">เลิกชื่นชอบ</string>
+    <string name="tw__loading_tweet">กำลังโหลดทวีต</string>
+    <string name="tw__login_btn_txt">เข้าสู่ระบบด้วยทวิตเตอร์</string>
+    <string name="tw__max_tweet_chars">140</string>
+    <string name="tw__pause">หยุดชั่วคราว</string>
+    <string name="tw__play">เล่น</string>
+    <string name="tw__post_tweet">ทวีต</string>
+    <string name="tw__relative_date_format_long">d/M/y</string>
+    <string name="tw__relative_date_format_short">d MMM</string>
+    <string name="tw__replay">เล่นซ้ำ</string>
+    <string name="tw__retweeted_by_format">ถูกรีทวีตโดย %1$s</string>
+    <string name="tw__share_content_format">ดูทวีตของ \@%1$s: Tweet: https://twitter.com/%1$s/status/%2$s</string>
+    <string name="tw__share_subject_format">ทวีตจาก %1$s (\@%2$s)</string>
+    <string name="tw__share_tweet">แบ่งปันทวีต</string>
+    <string name="tw__tweet_content_description">%1$s. %2$s. %3$s.</string>
+    <string name="tw__tweet_media">ทวีตสื่อ</string>
 </resources>

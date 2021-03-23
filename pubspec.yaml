@@ -38,6 +38,8 @@ dependencies:
   flutter_social_content_share:
   google_fonts:
   shared_preferences:
+  flutter_share_me:
+  firebase_admob:
 
 dev_dependencies:
   flutter_test:

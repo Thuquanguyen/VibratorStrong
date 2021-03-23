@@ -33,7 +33,7 @@
     <string gender="unknown" name="com_facebook_internet_permission_error_title">AndroidManifest ਤਰੁੱਟੀ</string>
     <string gender="unknown" name="com_facebook_like_button_liked">ਪਸੰਦ ਕੀਤਾ</string>
     <string gender="unknown" name="com_facebook_like_button_not_liked">ਪਸੰਦ ਕਰੋ</string>
-    <string gender="unknown" name="com_facebook_loading">ਲੋਡ ਹੋ ਰਿਹਾ ਹੈ...</string>
+    <string gender="unknown" name="com_facebook_loading">ਲੋਡ ਹੋ ਰਿਹਾ ਹੈ…</string>
     <string gender="unknown" name="com_facebook_loginview_cancel_action">ਰੱਦ ਕਰੋ</string>
     <string gender="unknown" name="com_facebook_loginview_log_in_button">ਲਾਗ ਇਨ</string>
     <string gender="unknown" name="com_facebook_loginview_log_in_button_continue">Facebook ਨਾਲ ਜਾਰੀ ਰੱਖੋ</string>
@@ -51,6 +51,20 @@
     <string gender="unknown" name="com_facebook_smart_login_confirmation_title">ਲੌਗ ਇਨ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ</string>
     <string gender="unknown" name="com_facebook_tooltip_default">ਤੁਸੀਂ ਨਿਯੰਤਰਣ ਵਿੱਚ ਹੋ - ਇਹ ਚੁਣੋ ਕਿ ਐਪਾਂ ਨਾਲ ਤੁਸੀਂ ਕਿਹੜੀ ਜਾਣਕਾਰੀ ਨੂੰ ਸਾਂਝਾ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ।</string>
     <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> ਨੂੰ Google Play ਸੇਵਾਵਾਂ ਨਾਲ ਸਮੱਸਿਆ ਆ ਰਹੀ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"</string>
+    <string msgid="4014704848104544569" name="offline_notification_text">"ਵਿਗਿਆਪਨ ਖੋਲ੍ਹਣ ਲਈ ਟੈਪ ਕਰੋ"</string>
+    <string msgid="6989673690118446590" name="offline_notification_title">"ਤੁਹਾਡੇ ਵੱਲੋਂ ਆਫ਼ਲਾਈਨ ਹੋਣ ਦੌਰਾਨ ਰੱਖਿਅਤ ਕੀਤੇ ਵਿਗਿਆਪਨ ਦੇਖੋ"</string>
+    <string msgid="6452552490969291315" name="offline_opt_in_confirm">"ਠੀਕ ਹੈ"</string>
+    <string msgid="2485091187023273083" name="offline_opt_in_confirmation">"ਤੁਹਾਡੇ ਵਾਪਸ ਆਨਲਾਈਨ ਹੋਣ \'ਤੇ ਤੁਹਾਨੂੰ ਇੱਕ ਸੂਚਨਾ ਪ੍ਰਾਪਤ ਹੋਵੇਗੀ ਜਿਸ ਵਿੱਚ ਲਿੰਕ ਹੋਵੇਗਾ"</string>
+    <string msgid="1070677888032715836" name="offline_opt_in_decline">"ਨਹੀਂ ਧੰਨਵਾਦ"</string>
+    <string msgid="5998527443747404848" name="offline_opt_in_message">"ਅਸੀਂ ਤੁਹਾਨੂੰ ਇੱਕ ਸੂਚਨਾ ਭੇਜਾਂਗੇ ਜਿਸ ਵਿੱਚ ਵਿਗਿਆਪਨਦਾਤਾ ਦੀ ਸਾਈਟ ਦਾ ਲਿੰਕ ਹੋਵੇਗਾ।"</string>
+    <string msgid="4928666061183236333" name="offline_opt_in_title">"ਤੁਹਾਡੇ ਵਾਪਸ ਆਨਲਾਈਨ ਹੋਣ \'ਤੇ ਵਿਗਿਆਪਨ ਖੋਲ੍ਹੋ।"</string>
+    <string msgid="368094699078615544" name="s1">"ਚਿੱਤਰ ਰੱਖਿਅਤ ਕਰੋ"</string>
+    <string msgid="4550830452390689489" name="s2">"ਕੀ ਇਸ਼ਤਿਹਾਰ ਨੂੰ ਤਸਵੀਰ ਗੈਲਰੀ ਵਿੱਚ ਚਿੱਤਰ ਸਟੋਰ ਕਰਨ ਦੀ ਇਜਾਜ਼ਤ ਦੇਣੀ ਹੈ?"</string>
+    <string msgid="2435407834265420668" name="s3">"ਸਵੀਕਾਰ ਕਰੋ"</string>
+    <string msgid="9167523597401839819" name="s4">"ਅਸਵੀਕਾਰ ਕਰੋ"</string>
+    <string msgid="1566682516266724847" name="s5">"ਕੈਲੰਡਰ ਵਰਤਾਰਾ ਬਣਾਓ"</string>
+    <string msgid="5996672174517137271" name="s6">"ਕੀ ਇਸ਼ਤਿਹਾਰ ਨੂੰ ਇੱਕ ਕੈਲੰਡਰ ਵਰਤਾਰਾ ਬਣਾਉਣ ਦੀ ਇਜਾਜ਼ਤ ਦੇਣੀ ਹੈ?"</string>
+    <string msgid="7163549807207034258" name="s7">"ਟੈਸਟ ਇਸ਼ਤਿਹਾਰ"</string>
     <string msgid="146198913615257606" name="search_menu_title">"ਖੋਜੋ"</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>
