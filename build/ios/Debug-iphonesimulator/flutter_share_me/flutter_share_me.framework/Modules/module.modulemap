@@ -1,0 +1,6 @@
+framework module flutter_share_me {
+  umbrella header "flutter_share_me-umbrella.h"
+
+  export *
+  module * { export * }
+}

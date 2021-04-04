@@ -1,0 +1,11 @@
+framework module vibrate {
+  umbrella header "vibrate-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module vibrate.Swift {
+    header "vibrate-Swift.h"
+    requires objc
+}
