@@ -89,11 +89,11 @@ class _MyAppState extends State<MyApp> {
             font = value;
             break;
           case "background":
-            Color myColor = Color(prefs.getInt(key) ?? Colors.blue.value);
+            Color myColor = Color(prefs.getInt(key));
             backgroundMode = myColor;
             break;
           case "textcolor":
-            Color myColor = Color(prefs.getInt(key) ?? Colors.blue.value);
+            Color myColor = Color(prefs.getInt(key));
             textColor = myColor;
             break;
           default:
