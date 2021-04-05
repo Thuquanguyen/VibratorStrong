@@ -1,9 +1,11 @@
+import 'package:firebase_admob/firebase_admob.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_app_vibrator_strong/router.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+import 'Ads/ad_manager.dart';
 import 'Splat/splat_view.dart';
 
 void main() {
@@ -24,6 +26,7 @@ class _MyAppState extends State<MyApp> {
   var font = GoogleFonts.roboto().fontFamily;
   var backgroundMode = Colors.white;
   var textColor = Colors.black;
+  BannerAd myBanner;
 
   @override
   void initState() {
@@ -32,6 +35,28 @@ class _MyAppState extends State<MyApp> {
     getNamePreference("fonts");
     getNamePreference("background");
     getNamePreference("textcolor");
+    FirebaseAdMob.instance.initialize(appId: AdManager.appId);
+    myBanner = buildLargeBannerAd()..load();
+  }
+
+  @override
+  void dispose() {
+    // TODO: implement dispose
+    myBanner.dispose();
+    super.dispose();
+  }
+
+  BannerAd buildLargeBannerAd() {
+    return BannerAd(
+        adUnitId: AdManager.bannerAdUnitId,
+        size: AdSize.smartBanner,
+        listener: (MobileAdEvent event) {
+          if (event == MobileAdEvent.loaded) {
+            myBanner
+              ..show(
+                  anchorType: AnchorType.bottom,anchorOffset: kBottomNavigationBarHeight);
+          }
+        });
   }
 
   void resetFont(String key, {String fontStyle, Color color}) {

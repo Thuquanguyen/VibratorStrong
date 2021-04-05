@@ -1,10 +1,13 @@
 
 import 'dart:io';
 
+import 'package:firebase_admob/firebase_admob.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_app_vibrator_strong/Ads/ad_manager.dart';
 import 'package:flutter_app_vibrator_strong/Background/View/background_view.dart';
 import 'package:flutter_app_vibrator_strong/ColorText/View/color_text_view.dart';
 import 'package:flutter_app_vibrator_strong/FontText/View/font_text_view.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:toast/toast.dart';
 import 'package:vibration/vibration.dart';
 
@@ -15,6 +18,70 @@ class SettingView extends StatefulWidget {
 
 class _SettingViewState extends State<SettingView> {
   int indexSelected = 0;
+  bool _loader = false;
+  var isSelect = -1;
+
+  MobileAdTargetingInfo targetingInfo = MobileAdTargetingInfo(
+    keywords: <String>['flutterio', 'beautiful apps'],
+    contentUrl: 'https://flutter.io',
+    childDirected: false,
+    testDevices: <String>[], // Android emulators are considered test devices
+  );
+
+
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    saveStatusAdsPreference("maunen", false);
+    saveStatusAdsPreference("sizetext", false);
+    saveStatusAdsPreference("mauchu", false);
+    RewardedVideoAd.instance
+        .load(adUnitId: AdManager.rewardedAdUnitId, targetingInfo: targetingInfo)
+        .catchError((e) => print("error in loading 1st time"))
+        .then((v) => setState(() => _loader = v));
+
+    RewardedVideoAd.instance.listener = (RewardedVideoAdEvent event, {String rewardType, int rewardAmount}) {
+      if (event == RewardedVideoAdEvent.closed) {
+        print("CLOSE==============================================");
+        RewardedVideoAd.instance
+            .load(adUnitId: AdManager.rewardedAdUnitId, targetingInfo: targetingInfo)
+            .catchError((e) => print("error in loading again"))
+            .then((v) => print("VVVVVVV : $v"));
+      }else if (event == RewardedVideoAdEvent.completed){
+        switch (isSelect){
+          case 0:
+            saveStatusAdsPreference("maunen", true);
+            Navigator.of(context).pop();
+            Navigator.of(context).pushNamed(BackgroundView.routerName);
+            break;
+          case 1:
+              saveStatusAdsPreference("sizetext", true);
+             Navigator.of(context).pop();
+             Navigator.of(context).pushNamed(FontTextView.routerName);
+            break;
+          case 2:
+            saveStatusAdsPreference("mauchu", true);
+            Navigator.of(context).pop();
+            Navigator.of(context).pushNamed(ColorTextView.routerName);
+            break;
+          default:
+            break;
+        }
+        print("Complate=============================================");
+      }};
+  }
+
+  saveStatusAdsPreference(String key, bool status) async {
+    try {
+      SharedPreferences prefs = await SharedPreferences.getInstance();
+      prefs.setBool(key, status);
+      return true;
+    } catch (e) {
+      print(e);
+      return false;
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -60,7 +127,11 @@ class _SettingViewState extends State<SettingView> {
               visible: (vehicle.checks != null && vehicle.checks[i])),
         ),onTap: (){
           if(index == 0){
-            showAlertDialog(context,i);
+            showAlertDialog(context,i,(index){
+              setState(() {
+                isSelect = index;
+              });
+            });
           }else{
             setState(() {
               indexSelected = i;
@@ -159,11 +230,22 @@ List<Vehicle> vehicles = [
   ),
 ];
 
+Future<bool> getStatusAdsPreference(String key) async {
+  try {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    var status = prefs.getBool(key);
+    return status;
+  } catch (e) {
+    print(e);
+    return false;
+  }
+}
+
 void showToast(BuildContext context,String msg, {int duration, int gravity}) {
   Toast.show(msg, context, duration: duration, gravity: gravity);
 }
 
-showAlertDialog(BuildContext context,int index) {
+showAlertDialog(BuildContext context,int index,Function(int index) indexChange) {
 
   // set up the buttons
   Widget cancelButton = FlatButton(
@@ -172,24 +254,45 @@ showAlertDialog(BuildContext context,int index) {
       Navigator.of(context).pop();
     },
   );
-  Widget continueButton = FlatButton(
-    child: Text("See advertisement"),
-    onPressed:  () {
-      switch(index){
-        case 0:
-          Navigator.of(context).pop();
-          Navigator.of(context).pushNamed(BackgroundView.routerName);
-          break;
-        case 1:
-          Navigator.of(context).pop();
-          Navigator.of(context).pushNamed(FontTextView.routerName);
-          break;
-        default:
-          Navigator.of(context).pop();
-          Navigator.of(context).pushNamed(ColorTextView.routerName);
-          break;
-      }
+  Widget continueButton = FutureBuilder<bool>(
+    future: getStatusAdsPreference(index == 0 ? "maunen" : (index == 1 ? "sizetext" : "mauchu")),
+    builder: (BuildContext context, AsyncSnapshot<bool> snapshot) {
+      return FlatButton(
+        child: Text("See advertisement"),
+        onPressed:  () async {
+          await getStatusAdsPreference("");
+          switch(index){
+            case 0:
+              if (snapshot.data){
+                Navigator.of(context).pop();
+                Navigator.of(context).pushNamed(BackgroundView.routerName);
+              }else{
+                indexChange(0);
+                await RewardedVideoAd.instance.show().catchError((e) => print("error in showing ad: ${e.toString()}"));
+              }
+              break;
+            case 1:
+              if (snapshot.data){
+                Navigator.of(context).pop();
+                Navigator.of(context).pushNamed(FontTextView.routerName);
+              }else{
+                indexChange(1);
+                await RewardedVideoAd.instance.show().catchError((e) => print("error in showing ad: ${e.toString()}"));
+              }
+              break;
+            default:
+              if (snapshot.data){
+                Navigator.of(context).pop();
+                Navigator.of(context).pushNamed(ColorTextView.routerName);
+              }else{
+                indexChange(2);
+                await RewardedVideoAd.instance.show().catchError((e) => print("error in showing ad: ${e.toString()}"));
+              }
+              break;
+          }
 
+        },
+      );
     },
   );
 

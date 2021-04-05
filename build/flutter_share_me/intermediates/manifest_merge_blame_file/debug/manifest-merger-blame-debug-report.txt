@@ -3,30 +3,30 @@
 3    package="zhuoyuan.li.fluttershareme" >
 4
 5    <uses-sdk android:minSdkVersion="16" />
-5-->/Users/apple/.pub-cache/hosted/pub.dartlang.org/flutter_share_me-0.9.2/android/src/main/AndroidManifest.xml
+5-->/Users/thunq/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_share_me-0.9.2/android/src/main/AndroidManifest.xml
 6
 7    <uses-permission android:name="android.permission.INTERNET" />
-7-->/Users/apple/.pub-cache/hosted/pub.dartlang.org/flutter_share_me-0.9.2/android/src/main/AndroidManifest.xml:4:5-67
-7-->/Users/apple/.pub-cache/hosted/pub.dartlang.org/flutter_share_me-0.9.2/android/src/main/AndroidManifest.xml:4:22-64
+7-->/Users/thunq/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_share_me-0.9.2/android/src/main/AndroidManifest.xml:4:5-67
+7-->/Users/thunq/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_share_me-0.9.2/android/src/main/AndroidManifest.xml:4:22-64
 8
 9    <application>
-9-->/Users/apple/.pub-cache/hosted/pub.dartlang.org/flutter_share_me-0.9.2/android/src/main/AndroidManifest.xml:5:5-15:19
+9-->/Users/thunq/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_share_me-0.9.2/android/src/main/AndroidManifest.xml:5:5-15:19
 10        <provider
-10-->/Users/apple/.pub-cache/hosted/pub.dartlang.org/flutter_share_me-0.9.2/android/src/main/AndroidManifest.xml:6:9-14:20
+10-->/Users/thunq/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_share_me-0.9.2/android/src/main/AndroidManifest.xml:6:9-14:20
 11            android:name="zhuoyuan.li.fluttershareme.util.ShareFileProvider"
-11-->/Users/apple/.pub-cache/hosted/pub.dartlang.org/flutter_share_me-0.9.2/android/src/main/AndroidManifest.xml:7:13-51
+11-->/Users/thunq/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_share_me-0.9.2/android/src/main/AndroidManifest.xml:7:13-51
 12            android:authorities="${applicationId}.provider"
-12-->/Users/apple/.pub-cache/hosted/pub.dartlang.org/flutter_share_me-0.9.2/android/src/main/AndroidManifest.xml:8:13-60
+12-->/Users/thunq/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_share_me-0.9.2/android/src/main/AndroidManifest.xml:8:13-60
 13            android:exported="false"
-13-->/Users/apple/.pub-cache/hosted/pub.dartlang.org/flutter_share_me-0.9.2/android/src/main/AndroidManifest.xml:9:13-37
+13-->/Users/thunq/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_share_me-0.9.2/android/src/main/AndroidManifest.xml:9:13-37
 14            android:grantUriPermissions="true" >
-14-->/Users/apple/.pub-cache/hosted/pub.dartlang.org/flutter_share_me-0.9.2/android/src/main/AndroidManifest.xml:10:13-47
+14-->/Users/thunq/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_share_me-0.9.2/android/src/main/AndroidManifest.xml:10:13-47
 15            <meta-data
-15-->/Users/apple/.pub-cache/hosted/pub.dartlang.org/flutter_share_me-0.9.2/android/src/main/AndroidManifest.xml:11:13-13:54
+15-->/Users/thunq/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_share_me-0.9.2/android/src/main/AndroidManifest.xml:11:13-13:54
 16                android:name="android.support.FILE_PROVIDER_PATHS"
-16-->/Users/apple/.pub-cache/hosted/pub.dartlang.org/flutter_share_me-0.9.2/android/src/main/AndroidManifest.xml:12:17-67
+16-->/Users/thunq/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_share_me-0.9.2/android/src/main/AndroidManifest.xml:12:17-67
 17                android:resource="@xml/file_paths" />
-17-->/Users/apple/.pub-cache/hosted/pub.dartlang.org/flutter_share_me-0.9.2/android/src/main/AndroidManifest.xml:13:17-51
+17-->/Users/thunq/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_share_me-0.9.2/android/src/main/AndroidManifest.xml:13:17-51
 18        </provider>
 19    </application>
 20

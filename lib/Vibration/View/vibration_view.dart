@@ -14,63 +14,6 @@ class _VibrationViewState extends State<VibrationView>{
   var isStart = true;
   var isLook = false;
   int miliSecond = 0;
-  bool _isRewardedAdReady;
-
-  @override
-  void initState() {
-    // TODO: implement initState
-    super.initState();
-    // TODO: Initialize _isRewardedAdReady
-    _isRewardedAdReady = false;
-
-    // TODO: Set Rewarded Ad event listener
-    RewardedVideoAd.instance.listener = _onRewardedAdEvent;
-
-    // TODO: Load a Rewarded Ad
-    _loadRewardedAd();
-  }
-
-  @override
-  void dispose() {
-    // TODO: implement dispose
-    RewardedVideoAd.instance.listener = null;
-    super.dispose();
-  }
-  void _loadRewardedAd() {
-    RewardedVideoAd.instance.load(
-      targetingInfo: MobileAdTargetingInfo(),
-      adUnitId: AdManager.rewardedAdUnitId,
-    );
-  }
-
-  // TODO: Implement _onRewardedAdEvent()
-  void _onRewardedAdEvent(RewardedVideoAdEvent event,
-      {String rewardType, int rewardAmount}) {
-    switch (event) {
-      case RewardedVideoAdEvent.loaded:
-        setState(() {
-          _isRewardedAdReady = true;
-        });
-        break;
-      case RewardedVideoAdEvent.closed:
-        setState(() {
-          _isRewardedAdReady = false;
-        });
-        _loadRewardedAd();
-        break;
-      case RewardedVideoAdEvent.failedToLoad:
-        setState(() {
-          _isRewardedAdReady = false;
-        });
-        print('Failed to load a rewarded ad');
-        break;
-      case RewardedVideoAdEvent.rewarded:
-        // QuizManager.instance.useHint();
-        break;
-      default:
-      // do nothing
-    }
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -110,7 +53,7 @@ class _VibrationViewState extends State<VibrationView>{
             }
           },child: Text("Time",style: TextStyle(color: isLook ? Colors.grey : Colors.black),),color: isLook ? Colors.greenAccent:Colors.green),
           SizedBox(width: 50,),
-          RaisedButton(onPressed: (){
+          RaisedButton(onPressed: () async {
             setState(() {
               isLook = !isLook;
             });

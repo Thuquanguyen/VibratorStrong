@@ -1,10 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/apple/Desktop/VibratorStrong/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "outputFile": "/Users/thunq/Desktop/VibratorStrong/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/94e2b31440d513c729d4f7707bec554b/cardview-1.0.0/res/values-v23/values-v23.xml",
+                    "source": "/Users/thunq/.gradle/caches/transforms-2/files-2.1/436cab1676ce3cd4d96ac72f10262e8b/work-runtime-2.1.0/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,121",
+                        "endColumns": "65,62",
+                        "endOffsets": "116,179"
+                    }
+                },
+                {
+                    "source": "/Users/thunq/.gradle/caches/transforms-2/files-2.1/94e2b31440d513c729d4f7707bec554b/cardview-1.0.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +33,7 @@
                     }
                 },
                 {
-                    "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/dc5032269a57942a346432b001e977be/appcompat-1.0.2/res/values-v23/values-v23.xml",
+                    "source": "/Users/thunq/.gradle/caches/transforms-2/files-2.1/dc5032269a57942a346432b001e977be/appcompat-1.0.2/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -39,16 +49,6 @@
                         "endLines": "4,5,6,7,20,33,34,35,36,37,38",
                         "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
                         "endOffsets": "314,449,524,611,1401,2203,2330,2435,2550,2657,2770"
-                    }
-                },
-                {
-                    "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/436cab1676ce3cd4d96ac72f10262e8b/work-runtime-2.1.0/res/values-v23/values-v23.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,121",
-                        "endColumns": "65,62",
-                        "endOffsets": "116,179"
                     }
                 }
             ]

@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/apple/Desktop/VibratorStrong/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-ne/values-ne.xml",
+            "outputFile": "/Users/thunq/Desktop/VibratorStrong/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-ne/values-ne.xml",
             "map": [
                 {
-                    "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/d8e7826889984970bc4da5226f7261b3/core-1.2.0/res/values-ne/values-ne.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "45",
-                        "startColumns": "4",
-                        "startOffsets": "4736",
-                        "endColumns": "100",
-                        "endOffsets": "4832"
-                    }
-                },
-                {
-                    "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/07fe9dadce273c797f6e662b963c1ec7/jetified-play-services-ads-19.7.0/res/values-ne/values.xml",
+                    "source": "/Users/thunq/.gradle/caches/transforms-2/files-2.1/07fe9dadce273c797f6e662b963c1ec7/jetified-play-services-ads-19.7.0/res/values-ne/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/dc5032269a57942a346432b001e977be/appcompat-1.0.2/res/values-ne/values-ne.xml",
+                    "source": "/Users/thunq/.gradle/caches/transforms-2/files-2.1/d8e7826889984970bc4da5226f7261b3/core-1.2.0/res/values-ne/values-ne.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "45",
+                        "startColumns": "4",
+                        "startOffsets": "4736",
+                        "endColumns": "100",
+                        "endOffsets": "4832"
+                    }
+                },
+                {
+                    "source": "/Users/thunq/.gradle/caches/transforms-2/files-2.1/dc5032269a57942a346432b001e977be/appcompat-1.0.2/res/values-ne/values-ne.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -55,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/ecd6f9507c02ef5878cb74ebfd5eda5f/jetified-play-services-basement-17.3.0/res/values-ne/values.xml",
+                    "source": "/Users/thunq/.gradle/caches/transforms-2/files-2.1/ecd6f9507c02ef5878cb74ebfd5eda5f/jetified-play-services-basement-17.3.0/res/values-ne/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

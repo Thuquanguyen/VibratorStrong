@@ -3,10 +3,10 @@
 3    package="io.flutter.plugins.firebaseadmob" >
 4
 5    <uses-sdk android:minSdkVersion="16" />
-5-->/Users/apple/.pub-cache/hosted/pub.dartlang.org/firebase_admob-0.11.0+2/android/src/main/AndroidManifest.xml
+5-->/Users/thunq/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_admob-0.11.0+2/android/src/main/AndroidManifest.xml
 6
 7    <uses-permission android:name="android.permission.INTERNET" />
-7-->/Users/apple/.pub-cache/hosted/pub.dartlang.org/firebase_admob-0.11.0+2/android/src/main/AndroidManifest.xml:3:3-65
-7-->/Users/apple/.pub-cache/hosted/pub.dartlang.org/firebase_admob-0.11.0+2/android/src/main/AndroidManifest.xml:3:20-62
+7-->/Users/thunq/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_admob-0.11.0+2/android/src/main/AndroidManifest.xml:3:3-65
+7-->/Users/thunq/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_admob-0.11.0+2/android/src/main/AndroidManifest.xml:3:20-62
 8
 9</manifest>

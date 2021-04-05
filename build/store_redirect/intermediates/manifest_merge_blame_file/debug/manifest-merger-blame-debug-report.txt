@@ -3,6 +3,6 @@
 3    package="com.danieldallos.storeredirect" >
 4
 5    <uses-sdk android:minSdkVersion="16" />
-5-->/Users/apple/.pub-cache/hosted/pub.dartlang.org/store_redirect-1.0.2/android/src/main/AndroidManifest.xml
+5-->/Users/thunq/flutter/.pub-cache/hosted/pub.dartlang.org/store_redirect-1.0.2/android/src/main/AndroidManifest.xml
 6
 7</manifest>

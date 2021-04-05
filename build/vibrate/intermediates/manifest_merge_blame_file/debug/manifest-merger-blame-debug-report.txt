@@ -6,8 +6,8 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="16"
-8-->/Users/apple/.pub-cache/hosted/pub.dartlang.org/vibrate-0.0.4/android/src/main/AndroidManifest.xml
+8-->/Users/thunq/flutter/.pub-cache/hosted/pub.dartlang.org/vibrate-0.0.4/android/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="25" />
-9-->/Users/apple/.pub-cache/hosted/pub.dartlang.org/vibrate-0.0.4/android/src/main/AndroidManifest.xml
+9-->/Users/thunq/flutter/.pub-cache/hosted/pub.dartlang.org/vibrate-0.0.4/android/src/main/AndroidManifest.xml
 10
 11</manifest>

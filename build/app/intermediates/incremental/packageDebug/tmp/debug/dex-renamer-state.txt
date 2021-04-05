@@ -1,10 +1,10 @@
-#Tue Mar 23 23:47:58 ICT 2021
+#Wed Mar 24 11:40:01 ICT 2021
 path.2=classes3.dex
 path.1=classes2.dex
 path.0=classes.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-base.2=/Users/apple/Desktop/VibratorStrong/build/app/intermediates/dex/debug/mergeDexDebug/classes3.dex
-base.1=/Users/apple/Desktop/VibratorStrong/build/app/intermediates/dex/debug/mergeDexDebug/classes2.dex
-base.0=/Users/apple/Desktop/VibratorStrong/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+base.2=/Users/thunq/Desktop/VibratorStrong/build/app/intermediates/dex/debug/mergeDexDebug/classes3.dex
+base.1=/Users/thunq/Desktop/VibratorStrong/build/app/intermediates/dex/debug/mergeDexDebug/classes2.dex
+base.0=/Users/thunq/Desktop/VibratorStrong/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
